@@ -28,13 +28,64 @@ Desenvolvemos uma API RESTful que não apenas fornece acesso à lista de indicad
 
 Essa descrição atualizada agora inclui informações sobre os middlewares de verificação de rotas autenticadas, destacando a importância da autenticação para garantir a segurança e a integridade dos dados da aplicação.
 
-### Passo 1: Instalação das Dependências
+---
 
-1. Certifique-se de ter o Node.js e o Yarn instalados em seu sistema. Você pode baixá-los e instalá-los em [nodejs.org](https://nodejs.org/) e [yarnpkg.com](https://yarnpkg.com/) respectivamente.
-2. Clone o repositório do projeto Badaró em sua máquina local usando o comando `git clone https://github.com/seu-usuario/badaro-teste.git`.
-3. Navegue até o diretório do projeto usando o terminal ou prompt de comando.
+## Baixando e Instalando o Projeto
 
-### Passo 4: Inicialização do Servidor
+Este repositório contém o código-fonte do projeto Texoit. Siga as instruções abaixo para baixar e instalar o projeto em sua máquina local.
 
-1. Após a migração do banco de dados ser concluída com sucesso, você pode iniciar o servidor da aplicação Badaró.
-2. Execute o comando `yarn dev` para iniciar o servidor. Isso iniciará o servidor em modo de desenvolvimento.
+### Baixando o Projeto
+
+1. Abra o terminal ou prompt de comando.
+
+2. Execute o seguinte comando para clonar o repositório:
+
+   ```bash
+   git clone https://github.com/raylsonnovais/texoit.git
+   ```
+
+### Instalando as Dependências
+
+1. Navegue até o diretório do projeto Texoit:
+
+   ```bash
+   cd texoit
+   ```
+
+2. Antes de executar o projeto, é necessário instalar as dependências. Certifique-se de ter o Node.js e o npm (ou yarn) instalados em sua máquina.
+
+3. Execute o seguinte comando para instalar as dependências do projeto:
+
+   ```bash
+   npm install
+   ```
+
+   ou, se preferir usar o yarn:
+
+   ```bash
+   yarn install
+   ```
+
+### Rodando o Projeto
+
+Após a instalação das dependências, você está pronto para rodar o projeto Texoit. Dependendo do tipo de projeto, os comandos para iniciar podem variar. Consulte a documentação do projeto para mais detalhes.
+
+Se o projeto for uma aplicação Node.js, você pode executá-lo com:
+
+```bash
+npm run dev
+```
+
+ou
+
+```bash
+yarn run dev
+```
+
+Siga as instruções específicas do projeto para iniciar o servidor ou a aplicação.
+
+Agora você pode explorar e contribuir para o projeto Texoit em sua máquina local. Divirta-se codificando! 😊🚀
+
+---
+
+Este texto será exibido no README.md do repositório, fornecendo aos usuários as instruções necessárias para baixar, instalar e executar o projeto.
