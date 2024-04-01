@@ -1,12 +1,10 @@
 module.exports = {
-  preset: 'ts-jest',
   testEnvironment: 'node',
   roots: ['<rootDir>/src'],
-  moduleNameMapper: {
-    '^@modules/(.*)$': '<rootDir>/src/modules/$1',
-    '^@shared/(.*)$': '<rootDir>/src/shared/$1'
+  transform: {
+    '^.+\\.tsx?$': 'ts-jest',
   },
-  collectCoverage: true,
-  coverageDirectory: 'coverage',
-  coverageProvider: 'v8'
+  setupFilesAfterEnv: ['<rootDir>/src/test/setup.ts'],
+  testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$',
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
 };
